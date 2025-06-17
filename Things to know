@@ -48,3 +48,265 @@ Interface
 Access modifers 
 Method overloading 
 method overriding
+
+
+
+
+Adenza
+    1. what is threads
+    2. serialization
+    3. synchronization
+    4. how can we run a appliaction in a thread
+    5. volatile usage
+    6. transient
+    7. generics
+    6. have 2 functions of arg Student , Subject . Which will call if functin(null);
+    7. what is data structures
+    8. what is dbms
+    9. how to create a custom annotation (restriction that have on annotation creation)
+    10. what are the interfaces and class in collections . And what is the internal interfaces that have inside each collection.
+    11. test cases and exception handling
+    12. How can we extend the subclass of the class(generics)
+        <T extends A> it will allow A too
+        <? extends A> it will only allow the subtype of A.
+    13. Primitive , wrapper deep knowledge.
+    14. static block , indirect question 
+    15. what is interfaces? 
+
+    Coding:
+    1. reverese a number without using a inbuilt functions
+    2. fibbonaci series
+    3. a ball if falling from height =11 , and continously falling for half height and stop to 0. 
+        calculate the distance that ball travesed.
+    4. static block added for already written code.
+    5. primitive class creation and inserting a string created through that in set. what happens and what will the size of set if inserting same name in set using that wrapper class.
+
+Athena
+   
+TECH ROUND -1
+-------------
+
+store in same list , no need to take the other list 
+List<String> stringList = new ArrayList<>{"bharath","meena"};
+
+stringList.stream().reverse().map(str -> new StringBuilder(str).reverse()).forEach(System::println); -- wrong 
+
+json , how will you map this using object as well the json
+["school":{
+ "id":1,
+ "name":"xyz",
+  "sudents":[{
+	"id":11,
+	"name":"meena"
+},{
+	"id":12,
+	"name":"ashoka"
+}]
+}
+]
+
+Map<School,List<Student>> = one is map ,what is the another approach. 
+
+SQL query:
+student_name , total_marks
+99 - 2(1st rank)
+98 - 4(2nd rank)
+96 - 3rd rank 
+97 
+6ranks 
+
+select student_name from students s order by s.total_marks desc 
+					group by s.total_marks limit 1 offset 3
+
+said on inner and outer query.
+
+radix sort , where it is used. 
+121 , 10 ,2 
+turns = 3
+
+django,
+git commands
+    How can I get the particular commit by the message
+    what is squash
+hash algorithm 
+mongodb
+sendrequest , forward.
+spring boot (2)
+dependency injection 
+what is auto configuration , can we able to off the auto configuration?
+diff b/w linked and doubly linked list , said all what are other diff?
+why we need linked list?
+why is array vs linked list?. 
+unix commands - directory 
+can able have web application in spring?
+how should I get all the method names in a class in java?
+    import java.lang.reflect.Method;
+    Class<?> clazz = MyClass.class;
+    // Get all declared methods of the class
+     Method[] methods = clazz.getDeclaredMethods();
+
+
+Peer Island
+
+1. List all the adjacent subsets 
+    E.g. : 3 7 4 6 5, Our possible subsets are [3,4,5] , [3,4], [3,6] , [3,5], [7,6],[7,5] and [4,5]
+2. Write a function, that will print out all prime numbers in a given string.
+        Ex. "abc2134kd31" will output an array [2,13,3,3,31] (in the order they appear in the string).
+3. SQL 
+    Student [id, name, class]
+    Subject [id, name, class, price]
+    Find the total cost for student.
+    Student:
+    1 S1 1
+    2 S2 1
+    3 S3 2
+    Subject:
+    1 Math 1 10
+    2 Science 1 15
+    3 Math 2 20
+    4 Science 2 25
+    Output should be:
+    s1 25
+    s2 25
+    s3 45
+    Along with asked what if i didn't use group by here .
+4. Spring mvc controller anotations
+5. What is solid principles
+6. Design patterns
+7. overloading, overriding. 
+
+
+digit insurance
+
+qsn which is not known 
+1. what are the memories in java have
+2. what if exception occurs in finally block 
+    the exception that thrown in try block get overridden by exception in finally block, to get the
+    try block expection we can use suppressException 
+3. what is the types of lock we have?
+    object & class lock 
+4. others are basic question in spring and oops 
+5. what is class loader in java?
+    onRequest from JVM loads the the class. 
+6. coding
+    occurance of word in string 
+    duplicate chars in the string
+
+m2p 
+
+1. why spring 
+2. What is DI 
+3. layers in application 
+4. coding   
+    balanced paranthesis 
+    sorted array and merge 2 arrays and sort that too
+
+
+NIQ
+---
+round-3
+
+Innoura(2rounds)
+-----------------
+3coding (string , fibbonacci, zeros first in array with inplace)
+basics on java
+spring basics 
+project explanations
+
+
+UST (2rounds)
+-------------
+basics of java and spring boot
+managerial question with challenges
+
+athenaa - reinterview
+---------------------
+interview-1
+And indepth questions in hiberate 
+array = [2,3,6,1,10,15,12,]
+TargetSum = 10
+find the two integers which equals this TargetSum..
+
+Way to do  [2 SUM]
+---------
+Define a set 
+iterate the array
+find the difference target adn iterated num.
+check whether it's in set.
+if yes, return difference and num
+if no, add the num in to set.
+
+INTERVIEW -2 
+1. PALINDROME SUBSEQUENCE
+2. ROMAN 
+3. about project 
+4. design patterns
+INTERVIEW-3
+1.LARGEST CONTINOUS INCREMENTAL SUBLIST 
+2.difference B/W FUNC & STORED PROCEDURE
+3.how will you reduce the response time
+4.what are the java17 features
+
+Innoura
+--------
+Basics in techh
+programming[frontZeros, fibbonacci, String related prob,pattern print]
+
+UST
+--
+bascis in java & spring boot
+Swap a 2 nos without using a third variable
+angular basic qsns[es6 ,max in 2 array - angular, about html elements, interceptor in angular]
+
+EST 
+---
+What are the java8 features?
+what is date & time API ? How will you convert from localtime to utc?
+        LocalDateTime.now(ZoneId.of(DEFAULT_TIME_ZONE))
+what is optional? what will be return from ispresent and ifpresent?
+what is streams and methods in that?
+questions in streams with reduce and map?
+how mysql works in spring?
+what is used other than jpa and hibernate?
+how will you build the gradle using cmmand 
+    gradle build
+spring security 
+lifecycle of sprinboot 
+lifecycle of angular
+how will you create a component without using the commands
+how could move from one page to another page?
+
+omega 
+------
+basics in hibernate and sql query
+streams qsns 
+spring basic qsns 
+round-2
+--
+questions on cloud , hiberate 
+To avoid deadlock, while inserting , updating and retrival 
+more on cloud questions - managed with my knowledge
+
+BNP
+---
+touched all the parts 
+sql queries 
+streams 
+coding without inbuilt functions 
+more qsn on java 8 features
+hibernate basics
+angular basics
+had managerial round with tricky questions related projects, team , how will works..
+
+Effigo
+------
+programming qsn 
+streams
+basics in all areas
+
+HTC(FORD- client)
+---
+streams
+api 
+bascis in java and spring 
+microservices qsn's
