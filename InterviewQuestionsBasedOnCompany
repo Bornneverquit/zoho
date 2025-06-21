@@ -1,4 +1,30 @@
 
+Vivek Questions:
+
+1) what is diffrent between JDK and JRE ?
+2) Why java is platform Independent Language ?
+3) What is the diffrent between an abstract class and an interface ?
+4) what is the diffrent between final , finally and finalize ?
+5) what is the diffrent between stack and heap memory ?
+6) what is the diffrent between the method overloading and method overriding ?
+7) what is the diffrent between an abstract class and an interface ?
+8) What is the Diffrent between a private and a protected modifiers ?
+9) what is constructor overloading in java ?
+10) what is the use of super keyword in java ?
+11) what is the diffrent between static methods and static variables and static classes in java ?
+12) what excatly is System.out.println in java ?
+13) what part of the memory - stack or heap - cleaned in the grabage collection process ?
+14) Multithreading ?
+15) Synchronised 
+16) what is thread safe ?
+17) How to make any method thread safe ?
+18) what is concurrency ?
+19) what are the diffrent types of map ?
+20) Which map is used in default caching ?
+21) Interface , abstract class 
+
+
+
 
 Adenza
     1. what is threads
